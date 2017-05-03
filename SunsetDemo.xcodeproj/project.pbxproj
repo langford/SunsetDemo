@@ -16,6 +16,7 @@
 		8984247F1EB984C80081E31C /* zone.tab in Resources */ = {isa = PBXBuildFile; fileRef = 8984247B1EB984C80081E31C /* zone.tab */; };
 		898424821EB985040081E31C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898424811EB985040081E31C /* CoreLocation.framework */; };
 		898424851EB985570081E31C /* CLLocation+SunriseSunset.m in Sources */ = {isa = PBXBuildFile; fileRef = 898424841EB985570081E31C /* CLLocation+SunriseSunset.m */; };
+		898424881EB9919F0081E31C /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 898424871EB9919F0081E31C /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		898424831EB985570081E31C /* CLLocation+SunriseSunset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CLLocation+SunriseSunset.h"; path = "CLLocation-SunriseSunset-master/CLLocation+SunriseSunset.h"; sourceTree = "<group>"; };
 		898424841EB985570081E31C /* CLLocation+SunriseSunset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CLLocation+SunriseSunset.m"; path = "CLLocation-SunriseSunset-master/CLLocation+SunriseSunset.m"; sourceTree = "<group>"; };
 		898424861EB985A40081E31C /* SunsetDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SunsetDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		898424871EB9919F0081E31C /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		898424581EB984AD0081E31C = {
 			isa = PBXGroup;
 			children = (
+				898424871EB9919F0081E31C /* Readme.md */,
 				898424631EB984AD0081E31C /* SunsetDemo */,
 				898424621EB984AD0081E31C /* Products */,
 				898424801EB985040081E31C /* Frameworks */,
@@ -177,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898424881EB9919F0081E31C /* Readme.md in Sources */,
 				898424671EB984AD0081E31C /* ViewController.swift in Sources */,
 				898424651EB984AD0081E31C /* AppDelegate.swift in Sources */,
 				8984247D1EB984C80081E31C /* NSTimeZone+ISCLLocation.m in Sources */,
@@ -348,6 +352,7 @@
 				898424751EB984AD0081E31C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
