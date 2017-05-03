@@ -12,8 +12,10 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var local: UILabel!
     @IBOutlet weak var sinceSunset: UILabel!
+    @IBOutlet weak var approxLocationLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+       
         let formatter = DateFormatter()
         formatter.timeZone = NSTimeZone.local
         formatter.dateStyle = .short
@@ -26,6 +28,7 @@ class ViewController: UIViewController {
               let sunsetTime = approxLocation.sunsetDate() else{
             return
         }
+        approxLocationLabel?.text = approxLocation.description
         sinceSunset?.text = formatter.string(from: sunsetTime)
     }
 
